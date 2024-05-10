@@ -18,8 +18,8 @@ provider "google" {
   region      = "us-west3"
 }
 
-resource "google_compute_instance" "vm_instance" {
-  name         = "my-vm-instance"
+resource "google_compute_instance" "AcmeGCPWebServer" {
+  name         = "acme-gcp-websever"
   machine_type = "n1-standard-1"
   zone         = "us-west3-a"
 
